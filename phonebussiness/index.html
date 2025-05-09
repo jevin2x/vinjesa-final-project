@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinjesa</title>
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <script type="module" src="assets/js/model-viewer.min.js"></script>
+    <link rel="icon" type="image/webp" href="../assets/image/logo.webp">
+
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <nav class="navbar container">
+            <div class="logo">Vinjesa</div>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-btn">☰</label>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="./pages/phones.html">Phones</a></li>
+                <li><a href="./pages/location.html">Location</a></li>
+                <li><a href="./pages/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Banner Section -->
+        <section id="home-banner" class="container">
+            <div class="home-content">
+                <h1>Smartphone X: Power & Performance in Your Hands</h1>
+                <p>Experience seamless performance with Smartphone X, featuring a sleek design, a powerful processor, and an immersive display. Stay connected, productive, and entertained with cutting-edge technology at your fingertips.</p>
+                <button class="primary-button">Learn More</button>
+                <button class="secondary-button">Contact Us</button>
+            </div>
+            <div class="home-image">
+                <model-viewer 
+                src="./assets/model/samsungmodel2.glb" 
+                alt="3D Phone"
+                auto-rotate 
+                camera-controls 
+                disable-pan
+                disable-zoom
+                min-camera-orbit="auto auto 12m" 
+                max-camera-orbit="auto auto 12m"
+                camera-orbit="0deg 90deg 12m"
+                field-of-view="45deg"
+                exposure="1"
+                style="width: 500px; height: 500px; background-color: transparent;">
+              </model-viewer>
+            </div>              
+              
+        </section>
+
+       
+    </main>
+
+   
+</body>
+</html>
