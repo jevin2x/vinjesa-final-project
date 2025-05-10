@@ -1,0 +1,32 @@
+
+@import "button.css";
+@import "card.css";
+
+@import "navbar.css";
+@import "home.css";
+@import "location.css";
+@import "contact.css";
+@import "phones.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+  background-color: black;
+}
+
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.w-full {
+  width: 100%;
+}

@@ -1,0 +1,39 @@
+#phones {
+  background: black;
+  padding: 72px 24px;
+}
+
+.phones-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.phones-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+
+
+.phones-header h3 ,p{
+  font-size: 32px;
+  margin-bottom: 16px;
+  color: white;
+  
+}
+
+
+.phones-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 64px;
+}
+
+@media only screen and (max-width: 768px) {
+  #phones {
+    height: 100%;
+  }
+}

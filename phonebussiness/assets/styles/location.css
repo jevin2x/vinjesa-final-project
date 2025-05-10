@@ -1,0 +1,28 @@
+
+.image-container {
+  padding: 50px;
+}
+iframe {
+  width: 100%;
+ 
+}
+
+html,body{
+  height: 100%;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .image-container {
+    height: 94vh;
+    width: 100%;
+    
+  }
+
+  iframe{
+    height: 100%;
+    
+  }
+
+  
+}
